@@ -16,3 +16,5 @@ void main() { // Fungsi utama, titik awal eksekusi program.
     print(output);
   }
 }
+
+
