@@ -1,0 +1,22 @@
+void main (){
+final AngkaPertama = 20;
+final AngkaKedua = 10;
+final operator = "*";
+
+    switch (operator) {
+      case '+':
+        print('$AngkaPertama $operator $AngkaKedua = ${AngkaPertama + AngkaKedua}');
+        break;
+      case '-':
+        print('$AngkaPertama $operator $AngkaKedua = ${AngkaPertama - AngkaKedua}');
+        break;
+      case '*':
+        print('$AngkaPertama $operator $AngkaKedua = ${AngkaPertama * AngkaKedua}');
+        break;
+      case '/':
+        print('$AngkaPertama $operator $AngkaKedua = ${AngkaPertama / AngkaKedua}');
+        break;
+      default:
+        print('Operator tidak ditemukan');
+    }
+}
